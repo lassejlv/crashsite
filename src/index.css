@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+body {
+  background: rgb(26, 34, 48);
+  color: #eee;
+  overflow: hidden;
+}
+
+.root {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.root .logo {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.root .dont {
+  color: rgb(229, 160, 160);
+  margin-bottom: 1rem;
+}
+
+.root #youDead {
+  background: none;
+  border: 2px solid #eee;
+  color: rgb(178, 177, 177);
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
